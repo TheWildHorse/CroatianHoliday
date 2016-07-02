@@ -1,0 +1,21 @@
+{
+  "name": "thewildhorse/croatian-holiday",
+  "description": "This package calculates holiday dates in Croatia.",
+  "license": "MIT",
+  "keywords": ["croatia", "holiday", "praznici", "hrvatska"],
+  "authors": [
+    {
+      "name": "Igor Rinkovec",
+      "email": "igor-rinkovec+composer@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "IgorRinkovec\\CroatianHoliday\\": "src"
+    }
+  }
+}

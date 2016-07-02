@@ -2,6 +2,7 @@
 namespace IgorRinkovec\CroatianHoliday\Model;
 
 use IgorRinkovec\CroatianHoliday\Enumeration\HolidayEnumeration;
+use IgorRinkovec\CroatianHoliday\Exception\HolidayNotFoundException;
 
 class HolidayFactory
 {
